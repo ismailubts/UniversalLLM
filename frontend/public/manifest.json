@@ -1,0 +1,13 @@
+﻿{
+  "name": "UniversalLLM",
+  "short_name": "UniversalLLM",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "any"
+    }
+  ]
+}

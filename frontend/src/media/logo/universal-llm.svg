@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 48" fill="none">
+  <defs>
+    <linearGradient id="ulm" x1="0" y1="0" x2="240" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="8" width="32" height="32" rx="10" fill="url(#ulm)"/>
+  <path d="M12 28V20h4l4 8 4-8h4v8h-3v-6l-3.5 6h-3L14 22v6h-2z" fill="#fff"/>
+  <text x="44" y="32" fill="#F8FAFC" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="700">UniversalLLM</text>
+</svg>

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Welcome to UniversalLLM",
+    "short_description": "Explore the latest features, documentation, and release notes on GitHub.",
+    "goto": "https://github.com/ismailubts/UniversalLLM",
+    "author": "UniversalLLM",
+    "date": "January 21, 2026"
+  },
+  {
+    "title": "Community Hub",
+    "short_description": "Import agent skills, prompts, and slash commands from the community hub.",
+    "goto": "https://github.com/ismailubts/UniversalLLM#configuration",
+    "author": "UniversalLLM",
+    "date": "January 5, 2026"
+  }
+]
