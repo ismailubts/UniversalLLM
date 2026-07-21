@@ -207,7 +207,7 @@ function chatHistoryToHTML(history = [], { workspaceName, threadName }) {
  */
 async function chatHistoryToPDF(history = [], meta = {}) {
   const markdown = chatHistoryToMarkdown(history, meta);
-  const { markdownToPdf } = await import("@mintplex-labs/mdpdf");
+  const { markdownToPdf } = require("../markdownToPdf");
   const { PDFDocument, rgb, StandardFonts } = await import("pdf-lib");
 
   const pdfDoc = await PDFDocument.load(await markdownToPdf(markdown));
