@@ -6,12 +6,12 @@
     "open-computer": "./dist/open-computer"
   },
   "scripts": {
-    "build": "tsc --noEmit && node build.mjs",
+    "build": "node init && tsc --noEmit && node build.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node --import tsx --test \"src/**/*.test.ts\"",
-    "dev": "ts-node src/index.ts",
+    "dev": "node init && ts-node src/index.ts",
     "watch": "tsc --watch",
-    "start": "node dist/open-computer"
+    "start": "node init && node dist/open-computer"
   },
   "dependencies": {
     "commander": "^12.1.0"

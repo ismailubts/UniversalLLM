@@ -43,7 +43,7 @@ function bootSSL(app, port = 3001) {
       })
       .on("error", catchSigTerms);
 
-    require("@mintplex-labs/express-ws").default(app, server);
+    require("express-ws")(app, server);
     return { app, server };
   } catch (e) {
     console.error(

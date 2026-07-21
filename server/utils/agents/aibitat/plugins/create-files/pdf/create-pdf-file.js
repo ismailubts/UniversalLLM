@@ -86,7 +86,7 @@ module.exports.CreatePdfFile = {
                 `${this.caller}: Creating PDF document "${filename}"`
               );
 
-              const { markdownToPdf } = await import("@mintplex-labs/mdpdf");
+              const { markdownToPdf } = require("../../../../markdownToPdf");
               const { PDFDocument, rgb, StandardFonts } = await import(
                 "pdf-lib"
               );
